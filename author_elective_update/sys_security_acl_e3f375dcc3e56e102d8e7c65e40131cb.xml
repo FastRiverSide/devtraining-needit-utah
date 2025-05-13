@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Allow create for records in x_58872_needit_needit, for users with role x_58872_needit.needit_user.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_58872_needit_needit</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-12 13:31:35</sys_created_on>
+        <sys_id>e3f375dcc3e56e102d8e7c65e40131cb</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>x_58872_needit_needit</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_security_acl_e3f375dcc3e56e102d8e7c65e40131cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-12 14:19:18</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_es_latest_script action="DELETE">
+        <id>e3f375dcc3e56e102d8e7c65e40131cb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-12 13:31:31</sys_created_on>
+        <sys_id>4e743ddcc3e56e102d8e7c65e401315c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-12 13:31:31</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>c0a78674fbb4e2940c92f633beefdc37</instance_id>
+        <instance_name>dev319358</instance_name>
+        <name>sys_security_acl_e3f375dcc3e56e102d8e7c65e40131cb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow create for records in x_58872_needit_needit, for users with role x_58872_needit.needit_user.</description><local_or_existing>Local</local_or_existing><name>x_58872_needit_needit</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-12 13:31:35</sys_created_on><sys_id>e3f375dcc3e56e102d8e7c65e40131cb</sys_id><sys_mod_count>9</sys_mod_count><sys_name>x_58872_needit_needit</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_security_acl_e3f375dcc3e56e102d8e7c65e40131cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-12 14:19:18</sys_updated_on><type display_value="record">record</type></sys_security_acl><sys_es_latest_script action="INSERT_OR_UPDATE"><id>e3f375dcc3e56e102d8e7c65e40131cb</id><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-12 13:31:31</sys_created_on><sys_id>4e743ddcc3e56e102d8e7c65e401315c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-12 13:31:31</sys_updated_on><table>sys_security_acl</table><use_es_latest>true</use_es_latest></sys_es_latest_script></record_update>]]></payload>
+        <payload_hash>859363215</payload_hash>
+        <record_name>x_58872_needit_needit</record_name>
+        <reverted_from/>
+        <source>39b96621c31522102d8e7c65e40131d9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-12 14:19:18</sys_created_on>
+        <sys_id>126f79dcc3296e102d8e7c65e4013109</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196c4dd49130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-12 14:19:18</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>866f79dc3a296e108a83d0123d7f8e08</update_guid>
+        <update_guid_history>866f79dc3a296e108a83d0123d7f8e08:859363215,402ff19cd2296e1031868ca887471042:-671106364,268db998e8296e1048435841e000a82f:658294952,c06bfd5866296e1037bb9adc7145afa5:1019432972,f0ea755810296e1032cf58c78258393c:1181694122,b13af1d461296e10ce31d91d4ba2da84:2122644532,dca839d0f2296e10f218aa725ff6f965:-671106364,bf9471500c296e102d57e7090ac9e417:859363215,4b74b95034296e10aeeb8070a4efba39:-1161498668</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 00:02:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>9a3576c6c049412aa0e3f21862d91469</sys_id>
+        <sys_metadata>e3f375dcc3e56e102d8e7c65e40131cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needit</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="x_58872_needit_needit">76757a61c35522102d8e7c65e4013158</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_e3f375dcc3e56e102d8e7c65e40131cb</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_e3f375dcc3e56e102d8e7c65e40131cb">126f79dcc3296e102d8e7c65e4013109</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 00:02:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
